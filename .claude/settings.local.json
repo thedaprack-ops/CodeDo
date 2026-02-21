@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(npm install:*)",
+      "Bash(npx vercel list:*)",
+      "Bash(curl:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm audit:*)",
+      "Bash(npx netlify deploy:*)",
+      "Bash(git reset:*)",
+      "Bash(git pull:*)",
+      "Bash(node:*)"
+    ]
+  }
+}
