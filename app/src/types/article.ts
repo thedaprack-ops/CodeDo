@@ -1,0 +1,101 @@
+// 文章数据类型定义
+export interface Article {
+  id: string;
+  title: string;
+  excerpt: string;
+  content: string; // HTML 内容
+  filename?: string;
+  fileType?: 'html' | 'image' | 'video';
+  size?: number;
+  articleUrl?: string;
+  url?: string;
+  author: string;
+  date: string;
+  readTime: string;
+  category: string;
+  themeId?: string;
+  themeName?: string;
+  coverImage?: string;
+  mediaBlocks?: MediaBlock[];
+  difficulty: '入门' | '中级' | '进阶';
+  episodes?: number;
+  duration?: string;
+  image?: string;
+  status?: 'hot' | 'new' | 'coming';
+  statusLabel?: string;
+  featured?: boolean;
+  tags?: string[];
+  series?: string; // 所属系列
+  keyPoints?: string[]; // 核心要点
+  toc?: TOCItem[]; // 目录
+  metadata?: ArticleMetadata;
+  createdAt?: string;
+}
+
+export interface TOCItem {
+  id: string;
+  label: string;
+  level: number;
+}
+
+export interface MediaBlock {
+  id?: string;
+  type: 'image' | 'video' | 'text' | 'gallery';
+  url?: string;
+  text?: string;
+  images?: string[];
+  caption?: string;
+  order: number;
+  style?: {
+    layout?: 'fullWidth' | 'twoColumn' | 'waterfall' | 'inset';
+  };
+  poster?: string;
+}
+
+export interface ArticleMetadata {
+  coverImage?: string;
+  series?: string;
+  difficulty?: '入门' | '中级' | '进阶';
+  duration?: string;
+  episodes?: number;
+}
+
+export interface Theme {
+  id: string;
+  code: string;
+  name: string;
+  subtitle: string;
+  coverImage?: string;
+  bannerImage?: string;
+  gallery?: string[];
+  introVideo?: string;
+  layout?: {
+    heroStyle?: 'full' | 'split' | 'overlay';
+    cardColumns?: number;
+    sectionOrder?: string[];
+  };
+  sortOrder?: number;
+  isActive?: boolean;
+  createdAt?: string;
+  updatedAt?: string;
+}
+
+// 文章系列
+export interface ArticleSeries {
+  id: string;
+  name: string;
+  description: string;
+  image: string;
+  count: number;
+  articles: Article[];
+}
+
+// 解析后的 HTML 内容结构
+export interface ParsedContent {
+  title: string;
+  content: string;
+  excerpt: string;
+  keyPoints: string[];
+  toc: TOCItem[];
+  metadata: ArticleMetadata;
+}

@@ -1,0 +1,218 @@
+{
+  "exportedAt": "2026-02-21T12:57:24.370Z",
+  "source": "https://effortless-cat-555380.netlify.app/topic-collection",
+  "api": "https://effortless-cat-555380.netlify.app/api/get-articles?limit=200",
+  "total": 6,
+  "items": [
+    {
+      "id": "1",
+      "toc": [
+        {
+          "id": "intro",
+          "label": "什么是 Vibe Coding",
+          "level": 1
+        },
+        {
+          "id": "workflow",
+          "label": "标准工作流",
+          "level": 1
+        }
+      ],
+      "date": "2026-02-21",
+      "tags": [
+        "vibe-coding",
+        "入门"
+      ],
+      "image": "/article-1.jpg",
+      "title": "Vibe Coding 入门：用自然语言编程的新时代",
+      "author": "AI编程导师",
+      "status": "hot",
+      "content": "\n      <article>\n        <h1>Vibe Coding 入门：用自然语言编程的新时代</h1>\n        <p>Vibe Coding 是人与 AI 协作的新开发范式，核心是通过自然语言描述需求并迭代实现。</p>\n        <h2 id=\"intro\">什么是 Vibe Coding</h2>\n        <p>它不替代工程能力，而是放大工程效率。</p>\n        <h2 id=\"workflow\">标准工作流</h2>\n        <ul>\n          <li>明确需求与验收标准</li>\n          <li>生成初稿并审查</li>\n          <li>测试与重构</li>\n        </ul>\n      </article>\n    ",
+      "excerpt": "探索 AI 辅助编程的核心理念，学习如何与 AI 协作高效完成代码编写。",
+      "category": "basic",
+      "duration": "45分钟",
+      "episodes": 5,
+      "featured": true,
+      "readTime": "15 分钟",
+      "createdAt": "2026-02-21T12:55:11.249Z",
+      "keyPoints": [
+        "自然语言描述需求",
+        "快速生成初稿",
+        "人工审查和测试"
+      ],
+      "difficulty": "入门",
+      "statusLabel": "热门"
+    },
+    {
+      "id": "2",
+      "toc": [
+        {
+          "id": "principles",
+          "label": "核心原则",
+          "level": 1
+        }
+      ],
+      "date": "2026-02-21",
+      "tags": [
+        "claude",
+        "prompt"
+      ],
+      "image": "/article-2.jpg",
+      "title": "Claude Prompt 工程最佳实践",
+      "author": "AI编程导师",
+      "status": "new",
+      "content": "\n      <article>\n        <h1>Claude Prompt 工程最佳实践</h1>\n        <h2 id=\"principles\">核心原则</h2>\n        <ul>\n          <li>给出明确角色与任务</li>\n          <li>给出输入/输出约束</li>\n          <li>给出反例和边界条件</li>\n        </ul>\n      </article>\n    ",
+      "excerpt": "学习如何编写高质量 Prompt，提高 AI 代码产出的准确率和稳定性。",
+      "category": "tools",
+      "duration": "30分钟",
+      "episodes": 3,
+      "featured": false,
+      "readTime": "12 分钟",
+      "createdAt": "2026-02-21T12:55:11.249Z",
+      "keyPoints": [
+        "角色约束",
+        "结构化输入",
+        "边界条件"
+      ],
+      "difficulty": "进阶",
+      "statusLabel": "NEW"
+    },
+    {
+      "id": "3",
+      "toc": [
+        {
+          "id": "plan",
+          "label": "项目规划",
+          "level": 1
+        },
+        {
+          "id": "delivery",
+          "label": "交付路径",
+          "level": 1
+        }
+      ],
+      "date": "2026-02-21",
+      "tags": [
+        "实战",
+        "web"
+      ],
+      "image": "/article-3.jpg",
+      "title": "实战：用AI构建一个完整的Web应用",
+      "author": "AI编程导师",
+      "status": "coming",
+      "content": "\n      <article>\n        <h1>实战：用AI构建一个完整的Web应用</h1>\n        <h2 id=\"plan\">项目规划</h2>\n        <p>先定义领域模型和 API 合约，再进入页面和实现。</p>\n        <h2 id=\"delivery\">交付路径</h2>\n        <p>需求拆分 -> 代码生成 -> 测试修复 -> 部署上线。</p>\n      </article>\n    ",
+      "excerpt": "从需求到上线，完整走一遍 AI 协助的全栈开发流程。",
+      "category": "project",
+      "duration": "120分钟",
+      "episodes": 8,
+      "featured": false,
+      "readTime": "25 分钟",
+      "createdAt": "2026-02-21T12:55:11.249Z",
+      "keyPoints": [
+        "先 API 合约后实现",
+        "迭代测试",
+        "自动化部署"
+      ],
+      "difficulty": "中级",
+      "statusLabel": "即将发布"
+    },
+    {
+      "id": "4",
+      "toc": [
+        {
+          "id": "pipeline",
+          "label": "流水线设计",
+          "level": 1
+        }
+      ],
+      "date": "2026-02-21",
+      "tags": [
+        "openclaw",
+        "automation"
+      ],
+      "image": "/article-4.jpg",
+      "title": "OpenClaw 自动化工作流配置指南",
+      "author": "AI编程导师",
+      "content": "\n      <article>\n        <h1>OpenClaw 自动化工作流配置指南</h1>\n        <h2 id=\"pipeline\">流水线设计</h2>\n        <p>建议按 lint/test/build/deploy 四段拆分。</p>\n      </article>\n    ",
+      "excerpt": "掌握自动化流水线的配置方式，减少重复劳动。",
+      "category": "tools",
+      "duration": "60分钟",
+      "episodes": 4,
+      "featured": false,
+      "readTime": "18 分钟",
+      "createdAt": "2026-02-21T12:55:11.249Z",
+      "keyPoints": [
+        "流水线分层",
+        "失败快速反馈",
+        "可观测性"
+      ],
+      "difficulty": "中级"
+    },
+    {
+      "id": "6",
+      "toc": [
+        {
+          "id": "refactor-strategy",
+          "label": "重构策略",
+          "level": 1
+        }
+      ],
+      "date": "2026-02-21",
+      "tags": [
+        "refactor",
+        "quality"
+      ],
+      "image": "/parallax-1.jpg",
+      "title": "代码重构的AI助手：从混乱到优雅",
+      "author": "AI编程导师",
+      "content": "\n      <article>\n        <h1>代码重构的AI助手：从混乱到优雅</h1>\n        <h2 id=\"refactor-strategy\">重构策略</h2>\n        <p>先加测试保护，再做小步重构，最后统一风格。</p>\n      </article>\n    ",
+      "excerpt": "通过 AI 辅助重构策略，让遗留代码逐步可维护。",
+      "category": "project",
+      "duration": "90分钟",
+      "episodes": 6,
+      "featured": false,
+      "readTime": "20 分钟",
+      "createdAt": "2026-02-21T12:55:11.249Z",
+      "keyPoints": [
+        "测试先行",
+        "小步重构",
+        "统一规范"
+      ],
+      "difficulty": "进阶"
+    },
+    {
+      "id": "5",
+      "toc": [
+        {
+          "id": "debug-flow",
+          "label": "调试流程",
+          "level": 1
+        }
+      ],
+      "date": "2026-02-21",
+      "tags": [
+        "debug",
+        "ai"
+      ],
+      "image": "/article-5.jpg",
+      "title": "AI辅助调试：快速定位代码问题",
+      "author": "AI编程导师",
+      "status": "new",
+      "content": "\n      <article>\n        <h1>AI辅助调试：快速定位代码问题</h1>\n        <h2 id=\"debug-flow\">调试流程</h2>\n        <ul>\n          <li>构造最小复现</li>\n          <li>缩小问题边界</li>\n          <li>验证修复回归</li>\n        </ul>\n      </article>\n    ",
+      "excerpt": "结合日志、调用链和最小复现，让排障效率提升一个量级。",
+      "category": "basic",
+      "duration": "40分钟",
+      "episodes": 3,
+      "featured": false,
+      "readTime": "10 分钟",
+      "createdAt": "2026-02-21T12:55:11.249Z",
+      "keyPoints": [
+        "最小复现",
+        "边界定位",
+        "回归验证"
+      ],
+      "difficulty": "入门",
+      "statusLabel": "NEW"
+    }
+  ]
+}
